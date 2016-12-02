@@ -20,7 +20,7 @@
       $total=count($arr);
     };
     if(count($crr)!=$to&&count($crr)>1){
-      $crr=meg($crr);
+      $crr=intvalMerge($crr);
     }
     return $crr;
   }
